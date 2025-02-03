@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_KEY = import.meta.env.VITE_APP_UNSPLASH_API_KEY;
+const API_KEY = import.meta.env.value_of_this_api_key;
 
 const unsplashAPI = axios.create({
   baseURL: "https://api.unsplash.com",
